@@ -1,0 +1,18 @@
+div{
+    display:grid;
+    place-items: center;
+    width:20rem;
+}
+button{
+    margin: 1rem 1rem;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 4px;
+    background-color: white;
+    border-width: 0px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.confirmBtn{
+    margin:auto;
+}
