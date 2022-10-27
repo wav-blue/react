@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import SpecializationExam from "./chapter09_1/SpecializationExam"
+import PassingCount from "./chapter09/PassingCount"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-     <SpecializationExam />
+     <PassingCount />
 );
