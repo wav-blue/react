@@ -10,7 +10,7 @@ function App(){
 
     //값을 비교하고, 결과에 따라 표시할 텍스트의 내용을 변경하는 함수
     const searchData = () => {
-        setText('그런 유저는 없습니다'); //초기화
+        setText('그런 회원은 없습니다'); //초기화
         const isUser = userData.find(user => (user.id === search.id)); //id 일치 시
         console.log(isUser);
         
