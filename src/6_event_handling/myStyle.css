@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(218, 243, 243); /* 전체 바탕색 */
+}
+.frame1 {
+margin: 2rem; /* 마진조정으로 입력창과 출력창 영역여백 설정 */ 
+border-radius: 15px; /* 모서리 둥글게 */ 
+padding: 1rem; /* 입력창, 출력창 내부여백 */ 
+background-color: rgb(190, 229, 229); /* 입력창, 출력창 약간 더 진하게 */ 
+display: block; /* 브라우져 크기와 같이 자동조절 */ 
+}
+#who {
+color:blue; /* 이름출력 파랑글씨 */ 
+font-weight: bold; /* 글씨굵게*/ 
+}
+#text {
+color:gray; /* 글내용 글씨 회색으로 흐리게 출력 */
+}
